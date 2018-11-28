@@ -4,8 +4,12 @@
   "description": "RocketMQ binding for Node.js",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "npm run lint && echo 'no test yet'",
     "lint": "eslint .",
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+>>>>>>> da09239ec16cad54f8fc6f72ea831017003d09cb
     "postinstall": "node ./script/staticLinkLibDownload.js"
   },
   "author": "XadillaX <i@2333.moe>",
@@ -13,10 +17,13 @@
   "dependencies": {
     "nan": "^2.11.1",
     "urllib": "^2.31.2"
+<<<<<<< HEAD
   },
   "devDependencies": {
     "co": "^4.6.0",
     "eslint": "^5.9.0",
     "eslint-config-rocketmq-style": "^1.0.0"
+=======
+>>>>>>> da09239ec16cad54f8fc6f72ea831017003d09cb
   }
 }
