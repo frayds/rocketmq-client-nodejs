@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && echo 'no test yet'",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "postinstall": "node ./script/staticLinkLibDownload.js"
   },
   "author": "XadillaX <i@2333.moe>",
   "license": "MIT",
   "dependencies": {
-    "nan": "^2.11.1"
+    "nan": "^2.11.1",
+    "urllib": "^2.31.2"
   },
   "devDependencies": {
     "co": "^4.6.0",
