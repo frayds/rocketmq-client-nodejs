@@ -4,26 +4,16 @@
   "description": "RocketMQ binding for Node.js",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "test": "npm run lint && echo 'temp example test' && node example/producer.js && node example/push_consumer.js",
     "lint": "eslint .",
     "postinstall": "node ./script/lib_download.js"
-=======
-    "test": "npm run lint && echo 'no test yet'",
-    "lint": "eslint .",
-    "postinstall": "node ./script/staticLinkLibDownload.js"
->>>>>>> da0cd7bcd2286d0c1018fed0b06f03c724649dbb
   },
   "author": "XadillaX <i@2333.moe>",
   "license": "MIT",
   "dependencies": {
     "nan": "^2.11.1",
-<<<<<<< HEAD
     "urllib": "^2.31.2",
     "linux-os-info": "^2.0.0"
-=======
-    "urllib": "^2.31.2"
->>>>>>> da0cd7bcd2286d0c1018fed0b06f03c724649dbb
   },
   "devDependencies": {
     "co": "^4.6.0",
