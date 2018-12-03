@@ -7,7 +7,18 @@ const Producer = require("../lib/producer");
 
 co(function *() {
     const producer = new Producer("testGroup", {
+<<<<<<< HEAD
         nameServer: common.nameServer
+=======
+        nameServer: common.nameServer,
+        groupName: "testGroupName",
+        logFileNum: 5,
+        logFileSize: 1048576000,
+        logLevel: "debug",
+        compressLevel: 3,
+        sendMessageTimeout: 5000,
+        maxMessageSize: 1024 * 256
+>>>>>>> upstream/first-demo
     });
 
     console.time("producer start");
